@@ -1,8 +1,4 @@
 # Jira Card Creation — Command File
-**Project:** People Operations (PC)
-**Site:** 7edge.atlassian.net
-**Cloud ID:** 853e134e-6574-491a-a075-1b06f7d4b478
-**Default Assignee:** Angel Agnes (712020:19c4d10a-5a87-44ac-ae2c-a17424384659)
 
 ---
 

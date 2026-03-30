@@ -1,5 +1,8 @@
 You are helping the user manage their JIRA workflow and git branching. Follow these steps precisely.
 
+**User:** Sonal Monis
+**Department:** CNE-3
+
 ## Step 1: Fetch JIRA Tasks from Ready Column
 
 Use the Atlassian MCP tool to search for JIRA issues in the project. Query for issues in the "Ready" status/column with priorities: Sev1, Sev2, Sev3, or WP (Weekly Plan).
