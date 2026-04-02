@@ -1,0 +1,46 @@
+{
+  "name": "pr-review-command",
+  "version": "1.0.0",
+  "description": "PR review command for Claude CLI - validates pull requests against Git Guidelines",
+  "main": "pr-review-command.js",
+  "bin": {
+    "claude-pr-review": "./pr-review-command.js",
+    "pr-review": "./pr-review-command.js"
+  },
+  "scripts": {
+    "build": "tsc pr-review-command.ts --target es2020 --module commonjs",
+    "start": "node pr-review-command.js",
+    "test": "node pr-review-command.js --help",
+    "prepack": "npm run build"
+  },
+  "keywords": [
+    "git",
+    "cli",
+    "pr",
+    "pull-request",
+    "review",
+    "jira",
+    "commit",
+    "conventions",
+    "guidelines"
+  ],
+  "author": "Development Team",
+  "license": "Proprietary",
+  "repository": {
+    "type": "git",
+    "url": "https://your-repo.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "pr-review-command.js",
+    "SKILL.md",
+    ".prreviewrc.json",
+    "README.md"
+  ]
+}

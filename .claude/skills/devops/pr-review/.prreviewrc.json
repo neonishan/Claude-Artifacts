@@ -1,0 +1,20 @@
+{
+  "maxCommitMessageLineLength": 100,
+  "maxSubjectLineLength": 50,
+  "requireSmartCommits": true,
+  "requireJiraKeys": true,
+  "allowedCommitTypes": [
+    "feature",
+    "bugfix",
+    "chore",
+    "refactor",
+    "documentation",
+    "style",
+    "test",
+    "performance",
+    "ci",
+    "build",
+    "revert"
+  ],
+  "warnOnBatchCommits": true
+}
